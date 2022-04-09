@@ -1,0 +1,153 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.logo-text1{
+    font-family: 'Lato', sans-serif ;
+    font-style: Regular ;
+    font-size: 22px ;
+    line-height: 30px ;
+    letter-spacing: 0.25px ;
+    vertical-align: top ;
+}
+
+.logo-text2{
+    color: #D50000 ;
+    font-family: 'Lato', sans-serif ;
+    font-style: Regular ;
+    font-size: 22px ;
+    line-height: 30px ;
+    letter-spacing: 0.25px ;
+    vertical-align: top ;
+    
+}
+
+.access-wallet-btn{
+    background-color: white ;
+    border: solid 3px #9B0000 ;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 40px;
+    padding: 6px 9px;
+    margin-right: 30px;
+    font-family: 'Poppins';
+  }
+
+.access-wallet-btn:hover{
+      cursor: pointer;
+      background-color: #9B0000;
+      color:white;
+}
+
+.bgimage {
+    height: 100vh;
+    background-image: url('/assets/img/hero-img.jpg');
+    background-size: cover;
+    position: relative;
+    width: 1400px;
+    margin-left: -140px;
+}
+
+.hero-info{
+    position: absolute;
+    width: 720px;
+    height: 400px;
+    left: 680px;
+    top: 200px;
+    background: rgba(213, 0, 0, 0.2);
+    padding: 2px;
+    }
+    
+    
+    #hero-info-heading{
+       
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 86px;
+        color: #FFFFFF;
+        /* position: absolute; */
+        top: -80px;
+        left: 38px;
+        
+    }
+    
+    #hero-info-message{
+    color:white;
+    font-family: 'Poppins';
+    font-size:18px ;
+    width: 340px;
+    height: 20px;
+    /* position: absolute; */
+    left: 38px;
+    top: 240px;
+    }
+    
+    .donate-now-btn{
+        background-color: #FF5131 ;
+        color: white;
+        font-size: small;
+        font-weight: bolder;
+        border-radius: 40px;
+        padding: 6px 9px;
+        margin-right: 30px;
+        font-family: 'Poppins'; 
+        position: absolute;
+        left: 38px;
+        top: 340px;
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        width: 175px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 1.25px;
+    }
+    
+    .donate-now-btn:hover{
+        background-color: white;
+        border:border 3px solid #FF5131 ; 
+        color: #9B0000;
+    }
+
+    .imageAboutPage {
+        width: 100%;
+    }
+
+    .body-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    .read-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 106px;
+
+        /* position: absolute; */
+        width: 350px;
+        height: 45px;
+        left: 120px;
+        top: 1475px;
+
+        background: rgba(155, 0, 0, 0.7);
+        border-radius: 40px;
+        font-family: 'Poppins';
+        font-style: Regular;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 15px;
+        /* identical to box height */
+
+        letter-spacing: 1.25px;
+
+        color: #FFFFFF;
+    }
+    
+    .read-btn:hover{
+        background-color: white;
+        /* border:border 3px solid #FF5131 ;  */
+        color: #9B0000;
+    }
